@@ -1,0 +1,21 @@
+{
+  "name": "phickle/phickle-rest",
+  "authors": [
+    {
+      "name": "Ujjwal Bhardwaj",
+      "email": "ujjwalb1996@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Phickle\\Core\\": "Application/Core/",
+      "Phickle\\Models\\": "Application/Models/",
+      "Phickle\\Controllers\\": "Application/Controllers/",
+
+      "Tests\\Controllers\\": "tests/Controllers/"
+    }
+  },
+  "require": {
+    "firebase/php-jwt": "^5.0"
+  }
+}
